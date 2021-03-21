@@ -1,0 +1,2 @@
+# Spacecraft-control
+This was part of Spacecraft Attitude Dynamics and Control course assignment. The task was to design a complete spacecraft ADCS. First, sun sensor, star sensor, and earth horizon sensor were employed as vector measurements. Then SVD method was used as attitude determination algorithm, and Luenberger state observer was used as filtering method. The actuator was three axis reaction wheels, where DCM-based control law was utilized as control algorithm. In this simulink model, de-tumbling and nadir pointing were performed succesfully.
